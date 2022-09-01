@@ -1,19 +1,62 @@
-.div{
-    text-align: justify;
-    margin-left: 100px;
-    margin-right: 100px;
-    
-}
-.button{
-    
-}
-.clase{
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    /* display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center; */
+    background-color: #ddd;
+    padding: 0 100px 0 100px;
     text-align: center;
+    align-items: center;
+
 }
-.texto{
-    text-align: left;
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 36px;
+    width: 100%;
+    border-bottom: 4px black solid;
 }
 
-.ti{
-    font-style: italic;
+p{
+    text-align: justify;
+    font-size: 20px;
+}
+
+.indice{
+    border: 2px rgb(36, 34, 34) solid;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px 25px;
+    margin-bottom: 20px;
+    padding: 0 50px;
+}
+
+img{
+    height: auto;
+    width: 600px;
+}
+.listade{
+    list-style: square;
+    padding: 0 400px;
+}
+
+div{
+    align-items: center;
+}
+table{
+    display: flex;
+    justify-content: center;
+}
+table td{
+    border: 1px black solid;
+    padding: 10px;
+}
+ol{
+    padding: 0 500px;
+}
+
+.tra p{
+    display: flex;
+    justify-content: center;
 }
